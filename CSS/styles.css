@@ -3,27 +3,57 @@ body {
     box-sizing: border-box;
   }
   
-  nav ul {
+  
+  .nav {
     background-color: #77dd77;
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    padding: 10px;
     border-radius: 10px;
-    text-align: center; 
+    width: 1500px;
   }
-
-  nav ul li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 10px;
-    margin-left: 10px;
+  
+  .nav ul {
+    list-style: none;
     font-size: 17px;
   }
-
-  nav ul li a {
-    text-decoration: none;
+  
+  .horizontal > li{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .horizontal > li > a {
     color: white;
+    text-decoration: none;
+  }
+  
+  .horizontal li a:hover {
+    color: rgb(246, 201, 201);
+    transition: all .3s;
+  }
+  
+  .vertical {
+    position: absolute;
+    background: black;
+    width: 150px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+  }
+  
+  .vertical li a {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .horizontal li:hover .vertical {
+    visibility: visible;
+    opacity: 1;
   }
 
   .tinyPicture {
@@ -68,6 +98,7 @@ body {
   border-radius: 10px;
   width: 1200px;
   margin-bottom: 10px;
+  margin-top: 10px;
   padding: 10px;
 }
 
@@ -119,4 +150,38 @@ body {
 .carContainer1 {
   display: block;
   float: right;
+}
+
+.contenedor {
+  text-align: center;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.button {
+  margin: 5px;
+}
+
+.button1 {
+  margin: 5px;
+}
+
+.contenedor1 {
+  margin-top: 15px;
+  justify-content: left;
+}
+
+.mensaje1 {
+  font-size: 15px;
+}
+
+.stylishBox1 {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  border-radius: 10px;
+  width: 220px;
+  padding: 5px;
 }
