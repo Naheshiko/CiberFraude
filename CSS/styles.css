@@ -37,11 +37,15 @@ body {
   
   .vertical {
     position: absolute;
-    background: black;
+    background: #77dd77;
     width: 150px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
   }
   
   .vertical li a {
