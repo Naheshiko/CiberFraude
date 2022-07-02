@@ -5,7 +5,7 @@ body {
   
   
   .nav {
-    background-color: #77dd77;
+    background-color: #6e5ad1;
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -37,7 +37,7 @@ body {
   
   .vertical {
     position: absolute;
-    background: #77dd77;
+    background: #6e5ad1;
     width: 150px;
     visibility: hidden;
     opacity: 0;
@@ -188,4 +188,30 @@ body {
   border-radius: 10px;
   width: 220px;
   padding: 5px;
+}
+
+.caprichito {
+  text-align: center;
+  font-size: 20px;
+}
+
+.caprichito1 {
+  margin-top: 300px;
+  text-align: center;
+}
+
+.nav1 {
+  background-color: #6e5ad1;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 10px;
+  width: 1500px;
+  text-align: center;
+}
+
+.caprichito2 {
+  margin-left: 85%;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
 }
